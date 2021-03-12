@@ -1,0 +1,66 @@
+.App{
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    background: #ee6e73;
+    box-shadow: 0 0 5px;
+    margin-top: 100px;
+    padding-bottom: 1px;
+  }
+  .title {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+  }
+  .buttons-container button:hover{
+    box-shadow: 0 0 5px;
+  }
+  .value-container{
+    padding-top: 1.75%;
+  }
+  .value-container input{
+    border-radius: 5px;
+    display: block;
+    width: 95%;
+    border: 2px solid black;
+    height: 40px;
+    text-align: right;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: lightslategrey;
+  }
+  .buttons-container{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .buttons-container button{
+    border-radius: 5px;
+    width: 20%;
+    height: 40px;
+    line-height: 30px;
+    margin: 2%;
+    border: 2px solid black;
+    outline: none;
+    background: #b5b5b5;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .result-container {
+    border-radius: 5px;
+    width: 95%;
+    height: 150px;
+    line-height: 30px;
+    margin: 2% 2%;
+    border: 2px solid rgb(204, 0, 255);
+    outline: none;
+    background: #ffffff;
+    color: white;
+    font-weight: 700;
+  }
